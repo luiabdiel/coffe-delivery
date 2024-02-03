@@ -7,7 +7,6 @@ export function Header() {
     <TagHeader>
       <div className="container">
         <Logo />
-
         <HeaderButtonsContainer>
           <HeaderButton variant="purple">
             <MapPin size={20} weight="fill" />
