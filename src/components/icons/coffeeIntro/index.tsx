@@ -1,5 +1,5 @@
 import { ComponentProps } from 'react'
-export function Coffe(props: ComponentProps<'svg'>) {
+export function CoffeeIntro(props: ComponentProps<'svg'>) {
   return (
     <svg
       width={476}
