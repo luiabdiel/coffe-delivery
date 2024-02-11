@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { TitleText } from '../../../../components/Typography'
 
 export const CoffeeCardContainer = styled.div`
   width: 100%;
@@ -47,4 +48,12 @@ export const Tags = styled.div`
     padding: 0.25rem 0.5rem;
     border-radius: 999px;
   }
+`
+
+export const Name = styled(TitleText).attrs({
+  size: 's',
+  color: 'subtitle',
+  weight: '700',
+})`
+  margin-bottom: 0.5rem;
 `
